@@ -3,6 +3,13 @@ body{
 	font-family: "微软雅黑";
 	background-color: -internal-root-color;
 }
+a:link, a:visited{
+	text-decoration: none;
+	color: gray;
+}
+a:hover{
+	color: #fff;
+}
 /* 顶部的导航栏 */
 #top{
 	width: 100%;
@@ -45,6 +52,13 @@ body{
 }
 #ul1{
 	list-style: none;
+}
+.daohang_donghua{
+	// background-color: red;
+}
+.daohang_donghua:hover{
+	color: #fff;
+	background-color: #0a79c2;
 }
 /* 网站主体部分 */
 #main{
