@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>招聘信息 - 山东昌盈</title>
+		<link rel="stylesheet" href="js/file1.css" />
+		<link href="SpryAssets/SpryAccordion.css" rel="stylesheet" type="text/css">
+	<script src="SpryAssets/SpryAccordion.js" type="text/javascript"></script>
+	</head>
+	<body OnLoad="swapPic()">
+		<!-- 网站主体 -->
+		<div id="bd">
+			<!-- 头部区域 -->
+			<div id="top">
+				<div class="logo">
+					<div id="logo_left">
+						<img src="img/20180929120024242.png" />
+					</div>
+					<div id="logo_ri">
+						<p><b>山东昌盈</b></p>
+					</div>
+				</div>
+				<div class="daohang">
+					<ul>
+						<li><b>网站首页</b></li>
+						<li><b>关于我们</b></li>
+						<li><b>服务范围</b></li>
+						<li><b>新闻资讯</b></li>
+						<li><b>发展趋势</b></li>
+						<li><b>商务合作</b></li>
+						<li><b>人事招聘</b></li>
+					</ul>
+				</div>
+				<!-- 滚动的图片 -->
+				<div class="banne">
+					<script language="javascript" type="text/javascript">
+				    var ranl = 0;
+				    var useRand = 0;
+				    images = new Array;
+					images[1] = new Image();
+					images[1].src = "img/img1.jpg";
+					images[2] = new Image();
+					images[2].src = "img/img2.jpg";
+					images[3] = new Image();
+					images[3].src = "img/img3.jpg";
+					function swapPic(){
+					   var imgnum = images.length-1;
+				       do{
+					    var randnum = Math.random();
+						randl = Math.round((imgnum-1)*randnum)+1;
+					   }while(randl==useRand);
+				        useRand = randl;
+				        document.randimg.src = images[useRand].src		
+						setTimeout('swapPic()',2000);
+					}
+					
+					</script>
+					<img name ="randimg" src="images/pic.jpg">
+				</div>
+				<!-- end 滚动的图片 -->
+			</div>
+			<!-- end 头部区域 -->
+				
+			<!-- 主体区域 -->
+			<div id="main">
+				<div class="renshi_m_s">
+					<p class="renshi_m_s_p1">招贤纳士</p>
+					<ul>
+						<li>
+							<div class="renshi_m_s_li">
+								<img src="img/renShi/linian.png"/>
+							</div>
+							<center><p class="renshi_m_s_p">招聘须知</p></center>
+						</li>
+						<li>
+							<div id="yanse" class="renshi_m_s_li">
+								<img src="img/renShi/pin.png"/>
+							</div>
+							<center><p id="yanse2" class="renshi_m_s_p">招聘信息</p></center>
+						</li>
+						<li>
+							<div class="renshi_m_s_li">
+								<img src="img/renShi/jianli.png"/>
+							</div>
+							<center><p class="renshi_m_s_p">简历投递</p></center>
+						</li>
+						<li>
+							<div class="renshi_m_s_li">
+								<img src="img/renShi/linxi.png"/>
+							</div>
+							<center><p class="renshi_m_s_p">联系方式</p></center>
+						</li>
+					</ul>					
+				</div>
+				<div class="zhiweisousuo">
+					<div class="zhiweisousuo_in">
+						<div class="suosou_in_in">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td width="120" height="80"><b>职位搜索：</b></td>
+                                    <td width="250" height="80"><select class="xialaxuank" name="sousuo">
+                                    	<option>所有职位</option>
+                                    	<option>济南</option>
+                                    </select></td>
+                                    <td width="350" height="80">
+                                    	<input class="sousuo_text" type="text" name="word" /> 
+										<input class="sousuo_sub" type="submit" value="搜索"/>
+                                    </td>
+                                    <td class="zhaopin_renshu" height="80">共发布<font color="red">7</font>个职位</td>
+                              </tr>
+                            </table>
+
+						</div>
+					</div>
+                  	<div id="Accordion1" class="Accordion" tabindex="0">
+	                    <div class="AccordionPanel">
+	                        <div class="AccordionPanelTab">
+	                        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                                <tr>
+	                                <td width="350" align="left" valign="middle">前台文员</td>
+	                                <td width="350">济南</td>
+	                                <td width="350">1人</td>
+	                                <td>+</td>
+	                              </tr>
+	                            </table>
+	
+	                        </div>
+	                        <div class="AccordionPanelContent">
+	                        	<font color="red"><p>招聘中</p></font>
+	                        	<p>岗位要求</p>
+	                        	<p>1、形象好，气质佳，普通话准确流利（请附带一张近期照片）；</p>
+	                        	<p>2、大专及以上学历，有相关工作经验，文秘、行政管理等相关专业优先考虑；</p>
+	                        	<p>3、较强的服务意识，熟练使用电脑办公软件；</p>
+	                        	<p>4、具备良好的协调能力、沟通能力，负有责任心，性格活泼开朗，具有亲和力；</p>
+	                        	<p>5、具备一定商务礼仪知识。</p>
+	                        </div>
+	                    </div>
+	                    <div class="AccordionPanel">
+	                        <div class="AccordionPanelTab">
+	                        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                                <tr>
+	                                <td width="350" align="left" valign="middle">监理员，监理工程师</td>
+	                                <td width="350">德州、济宁、菏泽</td>
+	                                <td width="350">3人</td>
+	                                <td>+</td>
+	                              </tr>
+	                            </table>
+	
+	                        </div>
+	                        <div class="AccordionPanelContent">
+	                        	<font color="red"><p>招聘中</p></font>
+	                        	<p>岗位要求</p>
+	                        	<p>1、有一定土建监理或有施工工作经验；</p>
+	                        	<p>2、熟悉土建图纸，钢筋识图等基础知识；</p>
+	                        	<p>3、身体健康，诚实敬业，品行端正，可以适应现场环境；</p>
+	                        	<p>4、能够接受公司安排，常驻公司监理的工程所在地；</p>
+	                        	<p>5、具备一定商务礼仪知识。</p>
+	                        </div>
+	                    </div>
+	                    <div class="AccordionPanel">
+	                        <div class="AccordionPanelTab">
+	                        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                                <tr>
+	                                <td width="350" align="left" valign="middle">汽车司机</td>
+	                                <td width="350">临沂</td>
+	                                <td width="350">2人</td>
+	                                <td>+</td>
+	                              </tr>
+	                            </table>
+	
+	                        </div>
+	                        <div class="AccordionPanelContent">
+	                        	<font color="red"><p>招聘中</p></font>
+	                        	<p>岗位要求<br>能适应省内长期出差</p>
+	                        	<p>1、25～40周岁，驾驶技术娴熟，要求会使用导航仪；</p>
+	                        	<p>2、无不良驾驶记录，无重大事故及交通违章，具有较强的安全意识；</p>
+	                        	<p>3、身体健康、为人踏实，责任心强，服从领导；</p>
+	                        	<p>4、具备良好的协调能力、沟通能力，负有责任心，性格活泼开朗，具有亲和力；</p>
+	                        	<p>5、具备一定商务礼仪知识。</p>
+	                        </div>
+	                    </div>
+	                    <div class="AccordionPanel">
+	                        <div class="AccordionPanelTab">
+	                        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                                <tr>
+	                                <td width="350" align="left" valign="middle">电子计算机信息系统集成工程师</td>
+	                                <td width="350">济南</td>
+	                                <td width="350">2人</td>
+	                                <td>+</td>
+	                              </tr>
+	                            </table>
+	
+	                        </div>
+	                        <div class="AccordionPanelContent">
+	                        	<font color="red"><p>招聘中</p></font>
+	                        	<p>岗位要求</p>
+	                        	<p>1、本科以上学历，计算机、软件工程、信息管理等相关专业；</p>
+	                        	<p>2、技能、能力：有软件需求设计、系统分析经验优先；</p>
+	                        	<p>3、熟悉综合布线图纸，有施工经验；</p>
+	                        	<p>4、具有认真负责、严谨细致、积极进取的工作态度和良好的团队协作精神；</p>
+	                        	<p>5、具备一定商务礼仪知识。</p>
+	                        </div>
+	                    </div>
+	                    <div class="AccordionPanel">
+	                        <div class="AccordionPanelTab">
+	                        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                                <tr>
+	                                <td width="350" align="left" valign="middle">文员内勤</td>
+	                                <td width="350">济南</td>
+	                                <td width="350">1人</td>
+	                                <td>+</td>
+	                              </tr>
+	                            </table>
+	
+	                        </div>
+	                        <div class="AccordionPanelContent">
+	                        	<font color="red"><p>招聘中</p></font>
+	                        	<p>岗位要求</p>
+	                        	<p>1、能熟练使用WORD、EXCEL、PHOTOSHOP等办公软件，工作认真仔细、责任心强；</p>
+	                        	<p>2、文笔好，或者电子信息技术专业的优先录用；</p>
+	                        	<p>3、爱岗敬业，品行端正，能吃苦耐劳，有较强的自主学习能力；</p>
+	                        	<p>4、具有认真负责、严谨细致、积极进取的工作态度和良好的团队协作精神；</p>
+	                        	<p>5、具备一定商务礼仪知识。</p>
+	                        </div>
+	                    </div>
+	                    <div class="AccordionPanel">
+	                        <div class="AccordionPanelTab">
+	                        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                                <tr>
+	                                <td width="350" align="left" valign="middle">聘办公室主任</td>
+	                                <td width="350">济南</td>
+	                                <td width="350">2人</td>
+	                                <td>+</td>
+	                              </tr>
+	                            </table>
+	
+	                        </div>
+	                        <div class="AccordionPanelContent">
+	                        	<font color="red"><p>招聘中</p></font>
+	                        	<p>岗位要求</p>
+	                        	<p>1、可接受转行求职人员，但要求勤奋好学，积极主动；</p>
+	                        	<p>2、学习能力强、工作踏实、具有责任心及团队合作意识；</p>
+	                        	<p>3、35-42周岁左右；</p>
+	                        	<p>4、具有认真负责、严谨细致、积极进取的工作态度和良好的团队协作精神；</p>
+	                        	<p>5、具备一定商务礼仪知识。</p>
+	                        </div>
+	                    </div>
+	                    <div class="AccordionPanel">
+	                        <div class="AccordionPanelTab">
+	                        	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	                                <tr>
+	                                <td width="350" align="left" valign="middle">标书制作/资料员</td>
+	                                <td width="350">济南</td>
+	                                <td width="350">1人</td>
+	                                <td>+</td>
+	                              </tr>
+	                            </table>
+	
+	                        </div>
+	                        <div class="AccordionPanelContent">
+	                        	<font color="red"><p>招聘中</p></font>
+	                        	<p>岗位要求</p>
+	                        	<p>1、仔细认真，有良好的团队合作意识，熟练运用office办公软件者优先录取</p>
+	                        	<p></p>
+	                        	<p>工作要求</p>
+	                        	<p>1、仔细认真，有良好的团队合作意识，熟练运用office办公软件者优先录取</p>
+	                        </div>
+	                    </div>
+                    </div>
+                </div>
+			</div>
+			<!-- end 主体区域 -->
+				
+			<!-- 底部区域 -->
+			<div id="bottom">
+				<div class="bo_shang">
+					<ul>
+						<li>关于我们</li>
+						<li>|</li>
+						<li>工程服务</li>
+						<li>|</li>
+						<li>新闻资讯</li>
+						<li>|</li>
+						<li>人事招聘</li>
+						<li>|</li>
+						<li>发展趋势</li>
+						<li>|</li>
+						<li>联系我们</li>
+						<li>|</li>
+						<li>在线留言</li>
+					</ul>
+				</div>
+				<div class="bo_xia">
+					<div class="bo_xia_p">
+						备案号：鲁ICP备19021781号
+					</div>
+				</div>
+			</div>
+			<!-- end 底部区域 -->
+		</div>
+		<!-- end 网站主体 -->
+    <script type="text/javascript">
+var Accordion1 = new Spry.Widget.Accordion("Accordion1");
+        </script>
+	</body>
+</html>

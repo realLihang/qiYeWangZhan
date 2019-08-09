@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>山东昌盈</title>
+		<link rel="stylesheet" href="js/file1.css" />
+	</head>
+	<body OnLoad="swapPic()">
+		<!-- 网站主体 -->
+		<div id="bd">
+			<!-- 头部区域 -->
+			<div id="top">
+				<div class="logo">
+					<div id="logo_left">
+						<img src="img/20180929120024242.png" />
+					</div>
+					<div id="logo_ri">
+						<p><b>山东昌盈</b></p>
+					</div>
+				</div>
+				<div class="daohang">
+					<ul>
+						<li><b>网站首页</b></li>
+						<li><b>关于我们</b></li>
+						<li><b>服务范围</b></li>
+						<li><b>新闻资讯</b></li>
+						<li><b>发展趋势</b></li>
+						<li><b>商务合作</b></li>
+						<li><b>人事招聘</b></li>
+					</ul>
+				</div>
+				<!-- 滚动的图片 -->
+				<div class="banne">
+					<script language="javascript" type="text/javascript">
+				    var ranl = 0;
+				    var useRand = 0;
+				    images = new Array;
+					images[1] = new Image();
+					images[1].src = "img/img1.jpg";
+					images[2] = new Image();
+					images[2].src = "img/img2.jpg";
+					images[3] = new Image();
+					images[3].src = "img/img3.jpg";
+					function swapPic(){
+					   var imgnum = images.length-1;
+				       do{
+					    var randnum = Math.random();
+						randl = Math.round((imgnum-1)*randnum)+1;
+					   }while(randl==useRand);
+				        useRand = randl;
+				        document.randimg.src = images[useRand].src		
+						setTimeout('swapPic()',2000);
+					}
+					
+					</script>
+					<img name ="randimg" src="images/pic.jpg">
+				</div>
+				<!-- end 滚动的图片 -->
+			</div>
+			<!-- end 头部区域 --><!-- 主体区域 -->
+			<div id="main">
+				
+			</div>
+			<!-- end 主体区域 --><!-- 底部区域 -->
+			<div id="bottom">
+				<div class="bo_shang">
+					<ul>
+						<li>关于我们</li>
+						<li>|</li>
+						<li>工程服务</li>
+						<li>|</li>
+						<li>新闻资讯</li>
+						<li>|</li>
+						<li>人事招聘</li>
+						<li>|</li>
+						<li>发展趋势</li>
+						<li>|</li>
+						<li>联系我们</li>
+						<li>|</li>
+						<li>在线留言</li>
+					</ul>
+				</div>
+				<div class="bo_xia">
+					<div class="bo_xia_p">
+						备案号：鲁ICP备19021781号
+					</div>
+				</div>
+			</div>
+			<!-- end 底部区域 -->
+		</div>
+		<!-- end 网站主体 -->
+	</body>
+</html>

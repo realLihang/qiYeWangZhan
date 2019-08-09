@@ -1,7 +1,7 @@
 body{
 	margin: 0px;	
 	font-family: "微软雅黑";
-	background-color: gainsboro;
+	background-color: -internal-root-color;
 }
 /* 顶部的导航栏 */
 #top{
@@ -61,7 +61,7 @@ body{
 	background-color: #fff;
 	border: 1px solid darkgrey;
 }
-.main_shang, .main_xia{
+.main_shang, .main_xia, .renshi_m_s, .renshi_m_x, .zhiweisousuo{
 	width: 60%;
 	margin-left: 400px;	
 }
@@ -154,3 +154,213 @@ body{
 	line-height: 80px;
 	margin-left: 800px;
 }
+
+
+
+
+
+/*******************************人事****************************/
+.renshi_m_s{
+	// background-color: red;
+	height: 300px;
+	border-bottom: 2px solid #0a79c2;
+}
+.renshi_m_s_li{
+	border-radius: 80px;
+	width: 160px;
+	height: 160px;
+	background-color: #000000;
+}
+.renshi_m_s ul{
+	list-style: none;
+}
+.renshi_m_s ul li{
+	float: left;
+	margin-left: 60px;
+	margin-right: 40px;
+}
+.renshi_m_s_li img{
+	margin-top: 35px;
+	margin-left: 35px;
+}
+.renshi_m_s_li:hover{
+	background-color: #0a79c2;
+}
+.renshi_m_s_p1{
+	font-size: 30px;
+	color: #7A7A7A;
+	font-family: "方正粗圆简体";
+}
+.renshi_m_s_hr{
+	width: 100%;
+	height: 10px;
+	margin-top: 250px;
+}
+.renshi_m_s_p{
+	font-size: 20px;
+	font-family: "方正粗圆简体";
+}
+.renshi_m_x{
+	margin-top: 0px;
+	height: auto;
+	// background-color: burlywood;
+}
+.renshi_m_x_sh{
+	width: 100%;
+	height: 200px;
+	margin-top: 0px;
+	background-color: #f2f2f2;
+}
+.renshi_m_x_xi{
+	height: 150px;
+	margin-top: 50px;
+	background-color: #f2f2f2;
+}
+.chengkongjian{
+	height: auto;
+	line-height: 50px;
+}
+.luicheng{
+	height: 60px;
+	margin-bottom: 20px;
+	// background-color: #000;
+}
+.luicheng p{
+	font-size: 20px;
+	font-family: "方正粗圆简体";
+	color: #555;
+	padding-top: 40px;
+	margin-left: 60px;
+	// margin-bottom: 40px;
+}
+.luicheng2 p{
+	// background-color: red;
+	margin: 3px 0px 0px 60px;
+}
+#yanse{
+	background-color: #0a79c2;
+}
+#yanse2{
+	color: #0a79c2;
+}
+
+
+
+/********************************简历投递*********************************/
+.renshi_jianli_m_x{
+	height: auto;
+	width: 60%;
+	margin-left: 400px;
+}
+.renshi_jianli_m_x_biaodan{
+	height: 650px;
+	// background-color: #ccc;
+	padding: 1px;
+}
+.renshi_jianli_m_x_biaodan_le{
+	width: 49%;
+	height: 500px;
+	float: left;
+	margin-top: 50px;
+	// background-color: #ccc;
+}
+.renshi_jianli_m_x_biaodan_ri{
+	width: 49%;
+	height: 425px;
+	margin-top: 85px;
+	float: right;
+	// background-color: #ccc;
+}
+.inp{
+	width: 80%;
+	height: 30px;
+	margin-left: 20px;
+}
+.inp2{
+	width: 95%;
+	height: 30px;
+}
+.for_p_b{
+	font-size: 18px;
+	// margin-top: 25px;
+}
+.hukou{
+	width: 98%;
+	height: 30px;
+}
+.pingjiw{
+	height: 150px;
+	width: 97.5%;
+	margin-top: 8px;
+}
+.jingyan{
+	width: 94.5%;
+	height: 200px;
+	margin-top: 8px;
+}
+.renshi_jianli_m_x_biaodan_bo{
+	// background-color: red;
+	width: 100%;
+	height: 100px;
+	margin-top: 550px;
+	// display: block;
+}
+.tijiaoanniu{
+	background-color: #0A79C2;
+	color: #FFFFFF;
+	border: 0px;
+	border-radius: 10px;
+	width: 166px;
+	height: 46px;
+	margin-left: 500px;
+	// margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+/**************************招聘信息****************************/
+.zhiweisousuo{
+	padding-top: 1px;
+}
+.zhiweisousuo_in{
+	width: 100%;
+	height: 150px;
+	padding-top: 1px;
+	// background-color: red;
+}
+.suosou_in_in{
+	height: 60px;
+	// background-color: #CCCCCC;
+	margin-top: 40px;
+}
+.xialaxuank{
+	width: 200px;
+	height: 30px;
+}
+.sousuo_text{
+	width: 250px;
+	height: 30px;
+}
+.sousuo_sub{
+	width: 80px;
+	height: 30px;
+}
+.zhaopin_renshu{
+	font-size: 30px;
+	color: #7A7A7A;
+}
+
+
+
+
+
+
+
+/**************************发展趋势********************************/
+
