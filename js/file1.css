@@ -76,7 +76,7 @@ body{
 	background-color: #fff;
 	border: 1px solid darkgrey;
 }
-.main_shang, .main_xia, .renshi_m_s, .renshi_m_x, .zhiweisousuo, .fazhan_top, .fazhan_zho{
+.main_shang, .main_xia, .renshi_m_s, .renshi_m_x, .zhiweisousuo, .fazhan_top, .fazhan_zho, .qianjing_top, .qianjing_xia{
 	width: 60%;
 	margin-left: 400px;	
 }
@@ -449,5 +449,153 @@ body{
 .qianjing{
 	width: 100%;
 	height: 550px;
+	padding: 1px;
 	background: url(../img/faZhanQuShi/qianjing_bg.jpg);
 }
+.qianjing_top{
+	height: 150px;
+	margin-top: 100px;
+	// background-color: burlywood;
+}
+.qianjing_top_le{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 400px;
+	// background-color: blueviolet;
+}
+.qianjing_top_ri{
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 430px;
+	// background-color: blueviolet;
+}
+.qianjing_top_zho{
+	width: 70px;
+	height: 100px;
+	margin-left: 522px;
+	font-size: 30px;
+	color: #fff;
+	font-family: "方正粗圆简体";
+	// background-color: blueviolet;
+}
+.qianjing_xia{
+	width: 55%;
+	height: 300px;
+	// background-color: burlywood;
+	// border: 1px solid #000000;
+	color: #fff;
+	// padding: 0px 50px;
+}
+.qianjing_xia p{
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 30px;
+}
+.fazhan_top a:link, .fazhan_top a:visited{
+	text-decoration: none;
+	// color: #fff;
+}
+.fazhan_top a:hover{
+	// color: #fff;
+}
+
+.fazhan_a:link, .fazhan_a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+.fazhan_a:hover{
+	color: #fff;
+}
+.fazhan_a2:link, .fazhan_a2:visited{
+	text-decoration: none;
+	color: #003677;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************商务合作***********************************/
+.shangwu_zho{
+	width: 100%;
+	height: auto;
+	background-color: #f8f8f8;
+}
+.shangwu_zho_for, .shangwu_xia_sh, .shangwu_xia_xia{
+	width: 60%;
+	margin-left: 400px;
+}
+.shangwu_zho_for{
+	height: 550px;
+	// background-color: #CCCCCC;
+	padding: 1px;
+}
+.shangwu_zho_for_sh_le{
+	width: 100px;
+	height: 30px;
+	float: left;
+	margin-left: 355px;
+	margin-top: 13px;
+	// background-color: aquamarine;
+	// border: 1px solid #000;
+}
+.shangwu_zho_for_sh_ri{
+	width: 100px;
+	height: 30px;
+	float: right;
+	margin-right: 380px;
+	margin-top: 13px;
+	// background-color: aquamarine;
+}
+.shangwu_zho_for_sh_zho{
+	width: 150px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 500px;
+	font-size: 30px;
+	// background-color: aquamarine;
+}
+.zaixianluiyan:hover{
+	color: #274878;
+}
+.zaixianluiyan:link, .zaixianluiyan:visited{
+	text-decoration: none;
+	color: #274878;
+}
+.shangwu_text{
+	width: 85%;
+	height: 40px;
+	border: 0.5px solid #ccc;
+}
+.shangwu_texts{
+	width: 100%;
+	height: 200px;
+	border: 0.5px solid #ccc;
+}
+.shangwu_sub{
+	width: 170px;
+	height: 40px;
+	background-color: #9b0202;
+	border: 0px;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 450px;
+}
+.shangwu_xia_xia{
+	margin-bottom: 100px;
+}
+
