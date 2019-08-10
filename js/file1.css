@@ -3,11 +3,11 @@ body{
 	font-family: "微软雅黑";
 	background-color: -internal-root-color;
 }
-a:link, a:visited{
+.daohang_donghua a:link, a:visited{
 	text-decoration: none;
 	color: gray;
 }
-a:hover{
+.daohang_donghua a:hover{
 	color: #fff;
 }
 /* 顶部的导航栏 */
