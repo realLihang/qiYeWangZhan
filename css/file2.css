@@ -1,0 +1,88 @@
+.main{
+	width: 100%;
+	height: auto;
+	background: url(../img/fuWuFanWei/download.jpg);
+}
+.fuwu_zi{
+	width: 60%;
+	height: 900px;
+	margin-left: 400px;
+	// background-color: #ccc;
+	background: url(../img/fuWuFanWei/download.png) no-repeat;
+	font-size: 20px;
+	padding: 1px;
+}
+.fuwu_zi ul{
+	list-style: none;
+}
+.one{
+	margin-left: 420px;
+	margin-top: 40px;
+}
+.img_box, .img_box2, .img_box3, .img_box4, .img_box5, .img_box6, .img_box7{
+	width: 140px;
+	height: 140px;
+	border: 4px solid #0979C2;
+	border-radius: 50%;
+	margin-left: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.img_box{
+	background-image: url(../img/fuWuFanWei/li/download1.png);
+}
+.img_box:hover{
+	background-image: url(../img/fuWuFanWei/li/download1_x.png);
+}
+.img_box2:hover{
+	background-image: url(../img/fuWuFanWei/li/download2_x.png);
+}
+.img_box3:hover{
+	background-image: url(../img/fuWuFanWei/li/download3_x.png);
+}
+.img_box4:hover{
+	background-image: url(../img/fuWuFanWei/li/download4_x.png);
+}
+.img_box5:hover{
+	background-image: url(../img/fuWuFanWei/li/download5_x.png);
+}
+.img_box6:hover{
+	background-image: url(../img/fuWuFanWei/li/download6_x.png);
+}
+.img_box7:hover{
+	background-image: url(../img/fuWuFanWei/li/download7_x.png);
+}
+.img_box:hover, .img_box2:hover, .img_box3:hover, .img_box4:hover, .img_box5:hover, .img_box6:hover, .img_box7:hover{
+	background-color: #0979C2;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.img_box2{
+	background-image: url(../img/fuWuFanWei/li/download2.png);
+}
+.img_box3{
+	background-image: url(../img/fuWuFanWei/li/download3.png);
+}
+.img_box4{
+	background-image: url(../img/fuWuFanWei/li/download4.png);
+}
+.img_box5{
+	background-image: url(../img/fuWuFanWei/li/download5.png);
+}
+.img_box6{
+	background-image: url(../img/fuWuFanWei/li/download6.png);
+}
+.img_box7{
+	background-image: url(../img/fuWuFanWei/li/download7.png);
+}
+
+.fuwu_zi ul li{
+	// background-color: red;
+	width: 200px;
+	float: left;
+	position: absolute;
+}
+.img_box img{
+	margin-left: 35px;
+	margin-top: 35px;
+}
